@@ -33,7 +33,6 @@ env/
 .venv
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -60,6 +59,7 @@ refresh_data.sh
 configs/day_config.json
 configs/hour_config.json
 configs/test_config.json
+configs/test_day_config.json
 
 # Data directories (optional - uncomment if needed)
 data/agent_data/test*/
@@ -80,3 +80,7 @@ htmlcov/
 .dmypy.json
 dmypy.json
 
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
